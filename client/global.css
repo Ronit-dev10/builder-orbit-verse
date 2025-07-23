@@ -9,7 +9,7 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
+    --background: 67 84% 94%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -54,6 +54,13 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Design system colors */
+    --design-blue: 185 97% 89%;
+    --design-black: 0 0% 13%;
+    --design-pink: 300 100% 78%;
+    --design-offwhite: 67 100% 93%;
+    --design-purple: 256 67% 79%;
   }
 
   .dark {
