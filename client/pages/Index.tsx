@@ -9,7 +9,8 @@ export default function Index() {
               Auto Layout
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-design-black leading-relaxed max-w-md">
-              Create layouts, frames, and components for more flexible and responsive designs.
+              Create layouts, frames, and components for more flexible and
+              responsive designs.
             </p>
             <button className="flex items-center gap-2 bg-design-black text-design-offwhite px-4 py-2 rounded-lg font-bold text-lg hover:opacity-90 transition-opacity">
               Start
@@ -29,42 +30,59 @@ export default function Index() {
 
               {/* Purple Striped Bar */}
               <div className="relative w-64 md:w-80 lg:w-96 h-12 md:h-14 lg:h-16 bg-design-purple overflow-hidden">
-                <svg 
-                  className="absolute inset-0 w-full h-full" 
-                  viewBox="0 0 387 74" 
+                <svg
+                  className="absolute inset-0 w-full h-full"
+                  viewBox="0 0 387 74"
                   preserveAspectRatio="none"
                 >
                   <defs>
-                    <pattern id="stripe1" patternUnits="userSpaceOnUse" width="20" height="74" patternTransform="rotate(-45)">
-                      <rect width="3" height="74" fill="#202020"/>
+                    <pattern
+                      id="stripe1"
+                      patternUnits="userSpaceOnUse"
+                      width="20"
+                      height="74"
+                      patternTransform="rotate(-45)"
+                    >
+                      <rect width="3" height="74" fill="#202020" />
                     </pattern>
                   </defs>
-                  <rect width="100%" height="100%" fill="url(#stripe1)"/>
-                  <rect x="40%" y="45%" width="20%" height="10%" fill="white" rx="2"/>
-                  <rect x="42%" y="47%" width="16%" height="6%" fill="#202020" rx="1"/>
+                  <rect width="100%" height="100%" fill="url(#stripe1)" />
+                  <rect
+                    x="40%"
+                    y="45%"
+                    width="20%"
+                    height="10%"
+                    fill="white"
+                    rx="2"
+                  />
+                  <rect
+                    x="42%"
+                    y="47%"
+                    width="16%"
+                    height="6%"
+                    fill="#202020"
+                    rx="1"
+                  />
                 </svg>
               </div>
 
               {/* Circle with Hole */}
               <div className="relative w-40 md:w-48 lg:w-56 h-40 md:h-48 lg:h-56">
-                <svg 
-                  className="w-full h-full" 
-                  viewBox="0 0 254 254"
-                >
-                  <circle 
-                    cx="127" 
-                    cy="127" 
-                    r="125" 
-                    fill="#C7F8FB" 
-                    stroke="#202020" 
+                <svg className="w-full h-full" viewBox="0 0 254 254">
+                  <circle
+                    cx="127"
+                    cy="127"
+                    r="125"
+                    fill="#C7F8FB"
+                    stroke="#202020"
                     strokeWidth="3"
                   />
-                  <circle 
-                    cx="127" 
-                    cy="127" 
-                    r="22" 
-                    fill="#F3FFE3" 
-                    stroke="#202020" 
+                  <circle
+                    cx="127"
+                    cy="127"
+                    r="22"
+                    fill="#F3FFE3"
+                    stroke="#202020"
                     strokeWidth="2"
                   />
                 </svg>
@@ -72,19 +90,39 @@ export default function Index() {
 
               {/* Bottom Purple Striped Bar */}
               <div className="relative w-64 md:w-80 lg:w-96 h-12 md:h-14 lg:h-16 bg-design-purple overflow-hidden">
-                <svg 
-                  className="absolute inset-0 w-full h-full" 
-                  viewBox="0 0 387 74" 
+                <svg
+                  className="absolute inset-0 w-full h-full"
+                  viewBox="0 0 387 74"
                   preserveAspectRatio="none"
                 >
                   <defs>
-                    <pattern id="stripe2" patternUnits="userSpaceOnUse" width="20" height="74" patternTransform="rotate(-45)">
-                      <rect width="3" height="74" fill="#202020"/>
+                    <pattern
+                      id="stripe2"
+                      patternUnits="userSpaceOnUse"
+                      width="20"
+                      height="74"
+                      patternTransform="rotate(-45)"
+                    >
+                      <rect width="3" height="74" fill="#202020" />
                     </pattern>
                   </defs>
-                  <rect width="100%" height="100%" fill="url(#stripe2)"/>
-                  <rect x="40%" y="45%" width="20%" height="10%" fill="white" rx="2"/>
-                  <rect x="42%" y="47%" width="16%" height="6%" fill="#202020" rx="1"/>
+                  <rect width="100%" height="100%" fill="url(#stripe2)" />
+                  <rect
+                    x="40%"
+                    y="45%"
+                    width="20%"
+                    height="10%"
+                    fill="white"
+                    rx="2"
+                  />
+                  <rect
+                    x="42%"
+                    y="47%"
+                    width="16%"
+                    height="6%"
+                    fill="#202020"
+                    rx="1"
+                  />
                 </svg>
               </div>
 
