@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Design system colors
+        design: {
+          blue: "hsl(var(--design-blue))",
+          black: "hsl(var(--design-black))",
+          pink: "hsl(var(--design-pink))",
+          offwhite: "hsl(var(--design-offwhite))",
+          purple: "hsl(var(--design-purple))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
